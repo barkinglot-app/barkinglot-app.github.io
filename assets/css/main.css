@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
+
+/*
+ * Dark brown: #5c3a1c
+ * Light brown: #ac8057
+ */
 .black-dropshadow {
 	-webkit-filter: drop-shadow( 0px 0px 4px rgba(0, 0, 0, 1));
 	filter: drop-shadow( 0px 0px 4px rgba(0, 0, 0, .1));
@@ -2286,6 +2291,7 @@ input, select, textarea {
 		}
 
 		#intro footer {
+			background: #5c3a1c;
 			margin: 0;
 		}
 
@@ -2317,7 +2323,7 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		color: #ac8057;
 		padding: 4em 0;
 	}
 
@@ -2334,7 +2340,7 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: #ac8057;
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {

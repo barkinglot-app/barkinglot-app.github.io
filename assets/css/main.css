@@ -1,9 +1,9 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-.white-dropshadow {
-	-webkit-filter: drop-shadow( 0px 0px 4px rgba(255, 255, 255, 1));
-	filter: drop-shadow( 0px 0px 4px rgba(255, 255, 255, .1));
+.black-dropshadow {
+	-webkit-filter: drop-shadow( 0px 0px 4px rgba(0, 0, 0, 1));
+	filter: drop-shadow( 0px 0px 4px rgba(0, 0, 0, .1));
 	/* Similar syntax to box-shadow */
 }
 
@@ -2145,7 +2145,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
+					background: #ac8057;
 					color: #fff !important;
 					font-weight: 700;
 				}
@@ -2201,7 +2201,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #fff;
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2212,7 +2212,7 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			background-color: rgba(255, 255, 255, 1.00);
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
@@ -2225,7 +2225,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #fff;
 				padding: 0;
 				font-style: normal;
 				margin: 0;

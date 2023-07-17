@@ -2297,13 +2297,18 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
+	section.content {
 		position: relative;
 		background: #f7f7f7 url("images/bg.png");
+		padding: 4em 0 0 0;
+	}
+
+	/* Last section needs more padding before footer */
+	section.content#membership {
 		padding: 4em 0 4em 0;
 	}
 
-		#main:before {
+		section.content:before {
 			content: '';
 			position: absolute;
 			top: 0;
@@ -2315,7 +2320,7 @@ input, select, textarea {
 			opacity: 0.1;
 		}
 
-		#main .major h2 {
+		section.content .major h2 {
 			background: #f7f7f7 url("images/bg.png");
 		}
 
@@ -2473,7 +2478,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			section.content {
 				padding: 30px 0;
 			}
 
@@ -2586,7 +2591,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			section.content {
 				padding: 40px 0;
 			}
 
@@ -2959,7 +2964,7 @@ input, select, textarea {
 
 		/* Main */
 
-			#main {
+			section.content {
 				padding: 20px 0;
 			}
 
